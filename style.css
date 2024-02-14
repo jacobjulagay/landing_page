@@ -1,3 +1,13 @@
+* {
+   
+    border: 2px solid red;
+  
+}
+
+ul {
+    list-style-type: none;
+}
+
 header .nav-bar {
     display: flex;
     flex-direction: row;
@@ -5,11 +15,46 @@ header .nav-bar {
 }
 
 #nav-list {
-    list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 10px 
+    gap: 10px
 }
 
+.header-info {
+    display: flex;
+    flex-direction: column;
+}
 
+.header-info .header-img {
+    color: blue;
+    align-self: flex-end
+}
 
+.header-info .header-signup-btn {
+    align-self: flex-start
+}
+
+.random-info-title {
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+.random-info-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.quote-section .quote-author {
+    align-self: flex-end;
+    margin-right: 150px 
+}
