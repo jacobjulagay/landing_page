@@ -1,6 +1,7 @@
 * {
-   
+    /*
     border: 2px solid red;
+    */
   
 }
 
@@ -57,4 +58,16 @@ header .nav-bar {
 .quote-section .quote-author {
     align-self: flex-end;
     margin-right: 150px 
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    color: white;
+}
+
+.call-to-action .call-to-action-signup-btn {
+    background-color: #3882F6;
+    color: white;
 }
