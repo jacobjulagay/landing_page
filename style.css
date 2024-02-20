@@ -1,10 +1,10 @@
 * {
-    /*
+  /* 
     border: 2px solid red;
-    */
-  
+   */
 }
 
+                                        /* Header Section */
 ul {
     list-style-type: none;
 }
@@ -21,6 +21,7 @@ header .nav-bar {
     gap: 10px
 }
 
+
 .header-info {
     display: flex;
     flex-direction: column;
@@ -35,39 +36,74 @@ header .nav-bar {
     align-self: flex-start
 }
 
+                                        /*Random Information Section */
 .random-info-title {
     display: flex;
     justify-content: center;
-    align-content: center
+    align-items: center;
+    color: #1F2937;
+    font: 36px extra-bold;
 }
 
 .random-info-ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
+.random-info-ul img{
+    align-self: center;
+    border: 2px solid #3882F6;
+    padding: 70px;
+    
+}
+
+                                         /* Quote  Section */
 .quote-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
 }
 
+.quote-section .quote-text {
+    color: #1F2937;
+    font: italic 36px "light italic"; 
+}
 .quote-section .quote-author {
     align-self: flex-end;
     margin-right: 150px 
 }
 
+                                        /*  Call to Action  Section */
 .call-to-action {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #3882F6;
     color: white;
+    padding: 30px;
+    margin: 100px;
 }
 
 .call-to-action .call-to-action-signup-btn {
     background-color: #3882F6;
     color: white;
+
 }
+
+                                        /* Footer  Section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+}
+
