@@ -1,7 +1,7 @@
 * {
-  /* 
+    /*
     border: 2px solid red;
-   */
+    */
 }
 
                                         /* Header Section */
@@ -9,10 +9,21 @@ ul {
     list-style-type: none;
 }
 
-header .nav-bar {
+header {
+    background: #1F2937;
+    color: white;
+    padding: 10px 100px 150px 150px;
+}
+
+.nav-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-between;
+}
+
+#header-logo {
+    font: 24px bold;
+    color: #F9FAF8;
 }
 
 #nav-list {
@@ -21,20 +32,41 @@ header .nav-bar {
     gap: 10px
 }
 
-
 .header-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.header-info > p {
+    margin: 0;
+}
+
+.header-info .main-header-text {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+.header-info .main-header-subtext {
+    max-width: 500px
+}
+
+
+.header-info .header-signup-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border:  #3882F6;
 }
 
 .header-info .header-img {
     color: blue;
-    align-self: flex-end
+    align-self: flex-end;
 }
 
-.header-info .header-signup-btn {
-    align-self: flex-start
-}
 
                                         /*Random Information Section */
 .random-info-title {
@@ -53,11 +85,17 @@ header .nav-bar {
     gap: 10px;
 }
 
-.random-info-ul img{
+.random-info-ul img {
     align-self: center;
     border: 2px solid #3882F6;
     padding: 70px;
     
+}
+
+.random-info-ul p {
+    text-align: center;
+    font: 18px;
+    color: grey
 }
 
                                          /* Quote  Section */
@@ -88,13 +126,15 @@ header .nav-bar {
     background-color: #3882F6;
     color: white;
     padding: 30px;
-    margin: 100px;
+    margin: 100px 200px;
 }
 
 .call-to-action .call-to-action-signup-btn {
     background-color: #3882F6;
     color: white;
-
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: white solid;
 }
 
                                         /* Footer  Section */
